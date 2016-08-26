@@ -105,7 +105,7 @@ class Conf(object):
         print json.dumps(res)
 
 if __name__ == '__main__':
-    conf = Conf(data.jr)
+    conf = Conf(data.sheji)
     conf.m_bread_button()
-    conf.get_list("金融 非百站新闻")
+    conf.get_list("鼓 非百站新闻")
     conf.get_nav()
